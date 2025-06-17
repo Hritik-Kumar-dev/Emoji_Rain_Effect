@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <h1>Welcome to Emoji Rain 🌧️</h1>
       <EmojiRain />
+      
     </div>
   );
 }

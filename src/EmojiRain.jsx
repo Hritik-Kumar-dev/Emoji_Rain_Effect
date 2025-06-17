@@ -14,6 +14,7 @@ const EmojiRain = () => {
   const [drops, setDrops] = useState([]);
   const containerRef = useRef(null);
   const mouseRef = useRef({ x: 0, y: 0 });
+  
 
   // Update mouse position
   useEffect(() => {
