@@ -1,0 +1,55 @@
+.emoji-rain-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.emoji {
+  font-size: 2rem;
+  transition: transform 0.1s ease;
+}
+.emoji.rain {
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100vh);
+  } 
+  } 
+  .emoji.rain:nth-child(odd) {
+    animation-duration: 3s;
+  } 
+  .emoji.rain:nth-child(even) {
+    animation-duration: 4s;
+  }
+  .emoji.rain:nth-child(3n) {
+    animation-duration: 5s;
+  }
+  .emoji.rain:nth-child(4n) {
+    animation-duration: 6s;
+  }
+  .emoji.rain:nth-child(5n) {
+    animation-duration: 7s;
+  }
+  .emoji.rain:nth-child(6n) {
+    animation-duration: 8s;
+  }
+  .emoji.rain:nth-child(7n) {
+    animation-duration: 9s;
+  }
+  .emoji.rain:nth-child(8n) {
+    animation-duration: 10s;
+  }
+  .emoji.rain:nth-child(9n) {
+    animation-duration: 11s;
+  }
+  
