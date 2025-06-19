@@ -3,9 +3,9 @@ may be a cool effect for the background
  with disturbance effect on hovering 
   
   # how to use it 
-  no need to clone the entire repo 
-  copy the codes in EmojiRain.jsx and EmojiRain.css 
-  and you are good to go .
+  * no need to clone the entire repo 
+  * copy the codes in EmojiRain.jsx and EmojiRain.css 
+  * and you are good to go .
 
   
 
