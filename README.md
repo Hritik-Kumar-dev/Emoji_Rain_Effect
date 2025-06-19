@@ -5,7 +5,7 @@ may be a cool effect for the background
   # how to use it 
   no need to clone the entire repo 
   copy the codes in EmojiRain.jsx and EmojiRain.css 
-  and you are good to goo 
+  and you are good to go .
 
   
 
